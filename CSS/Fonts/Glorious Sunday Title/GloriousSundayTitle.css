@@ -1,0 +1,12 @@
+/* Webfont: GloriousSundayTitle */@font-face {
+    font-family: 'GloriousSundayTitle';
+    src: url('GloriousSundayTitle.eot'); /* IE9 Compat Modes */
+    src: url('GloriousSundayTitle.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('GloriousSundayTitle.woff') format('woff'), /* Modern Browsers */
+         url('GloriousSundayTitle.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('GloriousSundayTitle.svg#GloriousSundayTitle') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+

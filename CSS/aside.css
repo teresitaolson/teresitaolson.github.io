@@ -1,0 +1,44 @@
+#logo{
+    width:65%;
+    margin: 1px auto;
+    display:block;
+}
+.blog_entry, .About_Jenny, .breakfast{
+    float:left;
+    width:65%;
+    padding: 10px 20px 10px 20px;
+}
+#recipe {
+    float:left;
+    width:65%;
+    padding: 10px 20px 10px 20px;
+}
+.Spoon_Face,.Seasonal, .Social_links, .Popular_spoonfuls{
+    float:left;
+    width:20%; 
+    padding: 10px 20px 10px 20px;
+}
+ul.Popular_spoonfuls {
+    list-style-type: none;
+}
+ul.Seasonal {
+    list-style-type: none;
+}
+.lunch, .dinner, .desserts, .basics, .party, .drinks{
+    float:left;
+    clear:left;
+    width:60%;
+    padding: 5px 10px 5px 10px;
+}
+.Comment{
+    float:left;
+    clear: left;
+    padding: 10px 20px 30px 20px;
+}
+.footer{
+    bottom: 0;
+    width:100%;
+    height:60px;
+    text-align: center;
+    clear:left;
+}

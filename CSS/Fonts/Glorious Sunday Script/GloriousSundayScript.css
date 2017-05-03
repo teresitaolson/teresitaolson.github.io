@@ -1,0 +1,12 @@
+/* Webfont: GloriousSundayScript */
+@font-face {
+    font-family: 'GloriousSundayScript';
+    src: url('GloriousSundayScript.eot'); /* IE9 Compat Modes */
+    src: url('GloriousSundayScript.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('GloriousSundayScript.woff') format('woff'), /* Modern Browsers */
+         url('GloriousSundayScript.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('GloriousSundayScript.svg#GloriousSundayScript') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: normal;
+}
+

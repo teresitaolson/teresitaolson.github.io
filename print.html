@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Spoon With Me</title>
+        <link href="https://fonts.googleapis.com/css?family=Loved+by+the+King|Source+Sans+Pro|Source+Serif+Pro" rel="stylesheet">
+        <link href="CSS/text_style.css" rel="stylesheet" type="text/css" >
+        <link href="CSS/aside.css" rel="stylesheet" type="text/css" >
+        <link href="CSS/blog_gallery.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <header>
+            <img id="logo" src="CSS/Logo/SWM_LT_Final_800x350.png" alt="SWM_logo">
+        </header>
+        <hr>
+        <div id="nav">
+            <ul>
+                <li><a href="index.html">Blog</a></li>
+                <li><a href="gallery.html">Recipes</a></li>
+                <li><a href="aboutMe.html">About Me</a></li>
+                <li><form action="/action_page.php"><input type="search" name="search" placeholder="search"/><input type="submit" value="search"/></form>
+                </li>
+            </ul>
+        </div>
+        <br>
+        <hr>
+        <!--        Recipe Header & Ingredients-->
+        <article class="blog_entry">
+            <h2>Hearty Vegetable Mushroom Stew</h2>
+            <h3> <em> Makes</em> 12 cups; 6-8 Servings</h3>
+            <img src="Images/Veg_Mushroom_Stew/vegan_mushroom_stew_plated_thumb.jpg" alt="veg_mushroom_stew" align="center"><br>
+            <button class="button" onclick="myFunction()">Print this page</button>
+            <!--        Ingredient Listing-->
+            <h2><em> Ingredients</em></h2>
+            <ul class="ingredients">
+                <li><em>2 TB </em> vegan butter</li>
+                <li><em>2 TB </em> olive oil</li>
+                <li><em>1-1/4 lb</em> small onions such as cipollinis, ends trimmed, peeled and quartered <br>(or use the same amount of yellow or sweet onions, diced)</li>
+                <li><em>4 medium </em> carrots, peeled and sliced 1/2 inch</li>
+                <li><em>2 medium </em>parsnips, sliced 1/4 inch (8 oz)</li>
+                <li><em>4 stalks </em> of celery, sliced <em>1/4 inch</em> thick</li>
+                <li><em>4 large </em>cloves garlic, minced</li>
+                <li><em>1/4 lb </em> crimini mushrooms, chopped</li>
+                <li><em>1/2 cup </em>marsala wine or dark beer</li>
+                <li><em>2 TB </em> tomato paste</li>
+                <li><em>1 quart </em> mushroom broth</li>
+                <li><em>1 quart </em> vegetable or chicken broth</li>
+                <li><em>1/2 cup </em>chopped dried wild mushrooms, woody stems removed</li>
+                <li><em>1-1/2 lbs</em> fingerling, yukon gold or red potatoes, cut 1 inch x 1/2 inch</li>
+                <li><em>1 </em>bay leaf</li>
+                <li><em>1 tsp </em>dried thyme</li>
+                <li><em>1 TB </em>Braggs liquid aminos or soy sauce, more or less to taste</li>
+                <li><em>1 tsp </em>worchestershire sauce (check for vegan if needed</li>
+                <li>salt and pepper to taste</li>
+                <li><em>1/2 TB </em>arrowroot starch or cornstarch, whisked into 1/4 cup cold water or broth</li>
+                <li><em>1 TB </em>apple cider vinegar</li>
+            </ul>
+            <!--        Recipe Directions-->
+            <h2><em> Directions</em></h2>
+            <ol>
+                <li><em>HEAT </em> butter and oil in a large heavy saucepan over medium high heat. Add the onions and toss to coat. Sprinkle with salt, and cover and allow to sweat for 3-4 minutes. Uncover and saute for 2 minutes until softened. Add carrots, parsnips and celery. Cook for 3 minutes. Add garlic and fresh mushrooms. Saute for a few more minutes. Deglaze plan with the marsala wine or beer, scraping any brown bits from the bottom of the pan. </li><br>
+                <li><em>ADD</em> tomato paste. Stir to coat the vegetables.</li><br>
+                <li><em>ADD</em> the broths, dried mushrooms, potatoes, bay leaf, thyme, liquid aminos and worcestershire sauce. Season to taste with salt and pepper, but careful not to over-salt because the stew will cook down and concentrate a bit. </li><br>
+                <li><em>BRING</em> to a boil, then reduce to a simmer for 40 minutes, or until potatoes are tender, or put in the slow cooker on low for 8 hours. Stir in the arrowroot or corn starch slurry. Remove 2 cups of the soup to a blender. Puree. Add back to the soup.</li><br>
+                <li><em>STIR</em> in the apple cider vinegar. Adjust salt, pepper and liquid aminos to taste. </li>
+            </ol>
+        </article>
+        <aside class="social_links">
+            <h2> Let's Stay in Contact</h2>
+            <a target="_blank" href="https://www.facebook.com/spoonwithmeblog/"><img title="facebook" src="Icons/facebook_48x48.png" alt="" width="35" height="35"/></a>
+            <a target="_blank" href="https://www.instagram.com/spoonwithmeblog/?hl=en"><img title="instagram" src="Icons/Instagram_Solid_48x48.png" alt="" width="35" height="35"/></a>
+            <a target="_blank" href="https://www.pinterest.com/spoonwithme/?eq=spoon%20with%20me&etslf=9789"><img title="pinterest" src="Icons/pinterest_48x48.png" alt="" width="35" height="35"/></a>
+            <a target="_blank" href="https://twitter.com/SpoonWithMeJen?lang=en"><img title="twitter" src="Icons/Twitter_Solid_48x48.png" alt="" width="35" height="35"/></a><br><br>
+            <form action ="subscribe" method="post" enctype="text/plain">
+                Email*<br>
+                <input type="text" name="email" class="field_name"><br><br>
+                <input type="submit" id="subscribe" value="subscribe">
+            </form><br>
+        </aside>
+        <!--        Popular Spoonfuls Sidebar-->
+        <ul class="Popular_spoonfuls">
+            <h2>Popular Spoonfuls</h2>
+            <li><a href="banana_bread_thumb.asp"><img src="Images/Breakfast/crumbly_banana_bread_thumb.jpg" alt="banana_bread_thumb" width="85" height="75" align="left"></a><h4>Crumbly Banana Bread</h4>
+                <a target="_blank" href="banana_bread_thumb.asp">Read More</a></li>
+            <li><a href="grilled_brie_apple.asp"><img src="Images/Lunch/apple_brie_grilled_thumb.jpg" alt="grilled_brie_apple" idth="85" height="75" align="left"></a><h4>Grilled Brie and Apple Sandwiches</h4>
+                <a target="_blank" href="grilled_brie_apple">Read More</a></li>
+            <li><a href="Lemony_Steam_Artichokes.asp"><img src="Images/Dinner/lemony_steamed_artichokes_thumb.jpg" alt="lemony_steam_artichokes" width="85" height="75" align="left"></a><h4>Lemony Steam-Roasted Artichokes</h4>
+                <a target="_blank" href="Lemony_Steam_Artichokes.asp">Read More</a></li>
+            <li><a href="Anytime_Frittatas.asp"><img src="Images/Breakfast/frittata_for_breakfastlunchdinner_thumb.jpg" alt="Anytime_frittatas" width="85" height="75" align="left"></a><h4>"Anytime" Frittata</h4>
+                <a target="_blank" href="Anytime_frittatas.asp">Read More</a></li>
+            <li><a href="rhubarb_mint_soda.asp"><img src= "Images/Drinks/rhubarb_mint_soda_thumb.jpg" alt="rhubarb_mint_soda" width="85" height="75" align="left"></a><h4>Rhubarb Mint Soda and Coincidental Jam</h4>
+                <a target="_blank" href="rhubarb_mint_soda.asp">Read More</a>
+            </li>
+        </ul>
+        <script>
+            function myFunction() {
+                window.print();
+            }
+        </script>
+
+        <div class="footer">
+            <br><hr>
+            <p>Spoon With Me 2017</p>
+            <a href="SpoonWithMeTerms.asp">Terms</a>
+            <a href="SpoonWithMePrivacy.asp">Privacy</a>
+            <hr>
+        </div>
+    </body>
+</html>

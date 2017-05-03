@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Spoon With Me</title>
+        <link href="https://fonts.googleapis.com/css?family=Loved+by+the+King|Source+Sans+Pro|Source+Serif+Pro" rel="stylesheet">
+        <link href="CSS/text_style.css" rel="stylesheet" type="text/css" >
+        <link href="CSS/aside.css" rel="stylesheet" type="text/css" >
+        <link href="CSS/recipe_gallery.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <header>
+            <img id="logo" src="CSS/Logo/SWM_LT_Final_800x350.png" alt="SWM_logo">
+        </header>
+        <hr>
+        <!--        navigation bar-->
+        <div id="nav">
+            <ul>
+                <li><a href="index.html"SWM_blog.html>Blog</a></li>
+                <li><a href="gallery.html">Recipes</a></li>
+                <li><a href="aboutMe.html">About Me</a></li>
+                <li><form action="/action_page.php"><input type="search" name="search" placeholder="search"/><input type="submit" value="search"/></form>
+                </li>
+            </ul>
+        </div>
+        <br>
+        <hr>
+        <div class="main_wrapper">
+            <!--        Breakfast Recipes-->
+            <div class="breakfast">
+                <h1 class="category_title">Breakfast</h1>
+                <div class="gallery">
+                    <a target="_blank" href="breakfast_crisp.asp">
+                        <img src="Images/Breakfast/breakfast_crisp_plated.jpg" alt="Breakfast_Crisp"></a>
+                    <div class="desc">Honey-Glazed Pear Breakfast Crisp</div>
+                </div>
+                <div class="gallery">
+                    <a target="_blank" href="breakfast_tacos.asp">
+                        <img src="Images/Breakfast/Breakfast_Tacos_plated.jpg" alt="breakfast_tacos"></a>
+                    <div class="desc">"Bricklayer" Breakfast Tacos with Chipotle-Lime Salsa</div>
+                </div>
+                <div class="gallery">
+                    <a target="_blank" href="banana_bread.asp">
+                        <img src="Images/Breakfast/crumbly_banana_bread_plated.jpg" alt="banana_bread"></a>
+                    <div class="desc">Whole Wheat Banana Bread with Walnut Crumble</div>
+                </div>
+                <div class="gallery">
+                    <a target="_blank" href="anytime_frittata.asp">
+                        <img src="Images/Breakfast/frittata_for_breakfastlunchdinner_plated.jpg" alt="anytime_frittata"></a>
+                    <div class="desc">Anytime" Frittata with Chorizo, Potato, and Feta</div>
+                </div>
+                <div class="gallery">
+                    <a target="_blank" href="cranberry_scones.asp">
+                        <img src="Images/Breakfast/gf_scones_plated.jpg" alt="cranberry_scones"></a>
+                    <div class="desc">Gluten-Free, Dairy-Free Cranberry Scones</div>
+                </div>
+                <div class="gallery">
+                    <a target="_blank" href="ginger_apricot_muffin.asp">
+                        <img src="Images/Breakfast/ginger_apricot_muffin_plated.jpg" alt="ginger_apricot_muffin"></a>
+                    <div class="desc">Heavenly Ginger Apricot Muffins</div>
+                </div>
+                <div class="gallery">
+                    <a target="_blank" href="cinnamon_rolls.asp">
+                        <img src="Images/Breakfast/gooey_cinnamon_rolls_plated.jpg" alt="cinnamon_rolls"></a>
+                    <div class="desc">Vegan Cranberry-Orange Cinnamon Rolls</div>
+                </div>
+                <div class="gallery">
+                    <a target="_blank" href="rosemary_espanola.asp">
+                        <img src="Images/Breakfast/Rosemary_espanola_plated.jpg" alt="rosemary_espanola"></a>
+                    <div class="desc">Rosemary Tortilla Espanola with Watercress Sauce</div>
+                </div>
+                <div class="gallery">
+                    <a target="_blank" href="vegan_trailmix.asp">
+                        <img src="Images/Breakfast/veganTrailmix_plated.jpg" alt="vegan_trailmix"></a>
+                    <div class="desc">Vegan Trail Mix Cookies</div>
+                </div>  
+            </div>
+            <!--        About Spoon with Me Sidebar-->
+            <aside class="Spoon_Face">
+                <h3>The Face Behind the Spoon</h3>
+                <a href="aboutMe.html"><img src="Images/About_Me/morgethaler_thumb.jpg"></a>
+                <p>Hi! I'm Jenny and I'm glad you're here! I am a writer, photographer, and recipe developer at this here blog. In the kitchen, I'm into creating colorful, healthy, flexible recipes to suit a variety of dietary needs. Spoon With Me is about creating foods you love, that also love you back. I believe that healthy eating isn't a drag when you get creative and have a little fun with it.</p>
+                <p><a href="aboutMe.html">About Spoon with Me</a></p>
+                <div class="social_links">
+                    <a target="_blank" href="https://www.facebook.com/spoonwithmeblog/"><img title="facebook" src="Icons/facebook_48x48.png" alt="" width="35" height="35"/></a>
+                    <a target="_blank" href="https://www.instagram.com/spoonwithmeblog/?hl=en"><img title="instagram" src="Icons/Instagram_Solid_48x48.png" alt="" width="35" height="35"/></a>
+                    <a target="_blank" href="https://www.pinterest.com/spoonwithme/?eq=spoon%20with%20me&etslf=9789"><img title="pinterest" src="Icons/pinterest_48x48.png" alt="" width="35" height="35"/></a>
+                    <a target="_blank" href="https://twitter.com/SpoonWithMeJen?lang=en"><img title="twitter" src="Icons/Twitter_Solid_48x48.png" alt="" width="35" height="35"/></a>
+                </div>
+                <h2> Ready to Spoon?</h2>
+                <form action ="subscribe" method="post" enctype="text/plain">
+                    Email*<br>
+                    <input type="text" name="email" class="field_name"><br><br>
+                    <input type="submit" id="subscribe" value="subscribe">
+                </form><br>
+
+            </aside>
+            <!--       Seasonal Side Bar-->
+            <ul class="Seasonal">
+                <h3>Seasonal Spoonfuls</h3>
+                <li><a href="asian_quinoa_salad.asp"><img src="Images/Lunch/asian_quinoa_salad_thumb.jpg" alt="asian_quinoa_salad" width="85" height="75" align="left"></a><h4>Asian Quinoa Salad</h4>
+                    <a target="_blank" href="asian_quinoa_salad.asp">Read More</a></li>
+                <li><a href="tabouleh_bowl.asp"><img src= "Images/Lunch/tabouleh_bowl_thumb.jpg" alt="tabouleh_bowl" width="85" height="75" align="left"></a><h4>Tabouleh Bowl</h4>
+                    <a target="_blank" href="tabouleh_bowl.asp">Read More</a></li>
+                <li><a href="avocado_salsa.asp"><img src="Images/Party_time/Advocadosalsa_thumb.jpg" alt="avocado_salsa" width="85" height="75" align="left"></a><h4>Avocado Salsa</h4>
+                    <a target="_blank" href="advocado_salsa.asp">Read More</a></li>
+                <li><a href="blueberry_lemonade.asp"><img src= "Images/Drinks/blueberry_agave_lemonade_thumb.jpg"alt="blueberry_lemondade" width="85" height="75" align="left"></a><h4> Blue Agave Lemonade</h4>
+                    <a target="_blank" href="blueberry_lemonade.asp">Read More</a></li>
+                <li><a href="Hibiscus_tea.asp"><img src="Images/Drinks/hibiscusmintsimplicitea_thumb.jpg" alt="hibiscus_tea" width="85" height="75" align="left"></a><h4> Hibiscus Mint Simplici-tea</h4>
+                    <a target="_blank" href="hibiscus_tea.asp">Read More</a></li>
+
+            </ul>
+            <br>
+            <!--        Lunch Recipes-->
+            <div class="lunch">
+                <h1 class="category_title">Lunch</h1>
+                <div class="gallery">
+                    <a target="_blank" href="apple_brie_sammie.asp">
+                        <img src="Images/Lunch/apple_brie_grilled_plated.jpg" alt="apple_brie_sammie"></a>
+                    <div class="desc">Grilled Brie and Apple Sandwiches</div>
+                </div>
+                <div class="gallery">
+                    <a target="_blank" href="asian_quinoa.asp">
+                        <img src="Images/Lunch/asian_quinoa_salad_plated.jpg" alt="asian_quinoa"></a>
+                    <div class="desc">Quinoa Salad with Almond-Soy Dressing</div>
+                </div>
+                <div class="gallery">
+                    <a target="_blank" href="black_eye_pea_soup.asp">
+                        <img src="Images/Lunch/black_eye_pea_soup_plated.jpg" alt="black_eye_pea_soup"></a>
+                    <div class="desc">Lucky Black-Eyed Pea and Kale Soup</div>
+                </div>
+                <div class="gallery">
+                    <a target="_blank" href="chipotle_sweetpotato.asp">
+                        <img src="Images/Lunch/chipotle_sweet_potato_soup_plated.jpg" alt="chipotle_sweetpotato"></a>
+                    <div class="desc">Honey-Chipotle Sweet Potato Soup</div>
+                </div>
+                <div class="gallery">
+                    <a target="_blank" href="crunch_wrap.asp">
+                        <img src="Images/Lunch/crunch_wrap_plated.jpg" alt="crunch_wrap"></a>
+                    <div class="desc">Veggie Wraps with Black Bean Hummus</div>
+                </div>
+                <div class="gallery">
+                    <a target="_blank" href="eat_sammie.asp">
+                        <img src="Images/Lunch/eat_sandwiches_plated.jpg" alt="eat_sammie"></a>
+                    <div class="desc">E.A.T. Sandwiches with Sun-dried Tomato Aioli</div>
+                </div>
+                <div class="gallery">
+                    <a target="_blank" href="grilled_porto_burger.asp">
+                        <img src="Images/Lunch/grilled_portobello_plated.jpg" alt="crunch_wrap"></a>
+                    <div class="desc">Portobello Burgers with Piquillo Aioli</div>
+                </div>
+                <div class="gallery">
+                    <a target="_blank" href="lentil_soup.asp">
+                        <img src="Images/Lunch/moroccan_lentil_soup_plated.jpg" alt="lentil_soup"></a>
+                    <div class="desc">Moroccan Lentil Soup</div>
+                </div>
+                <div class="gallery">
+                    <a target="_blank" href="pumpkin_soup.asp">
+                        <img src="Images/Lunch/roasted_pumpkin_soup_plated.jpg" alt="pumpkin_soup"></a>
+                    <div class="desc">Roasty Pumpkin- Butternut Soup</div>
+                </div>
+                <div class="gallery">
+                    <a target="_blank" href="shrimp_poboy.asp">
+                        <img src="Images/Lunch/shrimp_poboy_plated.jpg" alt="shrimp_poboy"></a>
+                    <div class="desc">Cajun Shrimp Poboys with Remoulade</div>
+                </div>
+                <div class="gallery">
+                    <a target="_blank" href="southwest_quinoa.asp">
+                        <img src="Images/Lunch/southwest_quinoa_plated.jpg" alt="ssouthwest_quinoa"></a>
+                    <div class="desc">Southwest Quinoa Salad</div>
+                </div>
+                <div class="gallery">
+                    <a target="_blank" href="spring_quinoa.asp">
+                        <img src="Images/Lunch/spring_quinoa_withmint_plated.jpg" alt="spring_quinoa.asp"></a>
+                    <div class="desc">Springy Quinoa Salad</div>
+                </div>
+                <div class="gallery">
+                    <a target="_blank" href="tabouleh_bowl.asp">
+                        <img src="Images/Lunch/tabouleh_bowl_plated.jpg" alt="tabouleh_bowl"></a>
+                    <div class="desc">Summer's Not Over Yet Quinoa Tabouleh Salad</div>
+                </div>
+                <div class="gallery">
+                    <a target="_blank" href="tomato_soup.asp">
+                        <img src="Images/Lunch/tomato_soup_plated.jpg" alt="tomato_soup"></a>
+                    <div class="desc">"Every Little Thing's Gonna Be Alright" Tomato Soup</div>
+                </div>
+                <div class="gallery">
+                    <a target="_blank" href="veggie_posole.asp">
+                        <img src="Images/Lunch/veggie_posole_plated.jpg" alt="veggie_posole.asp"></a>
+                    <div class="desc">Tomatillo-Veggie (or Chicken) Posole</div>
+                </div>
+                <div class="gallery">
+                    <a target="_blank" href="zaalouk.asp">
+                        <img src="Images/Lunch/zaalouk_plated.jpg" alt="tomato_soup"></a>
+                    <div class="desc">Zaalouk (Moroccan Eggplant Tomato Spread)</div>
+                </div>
+            </div>
+            <br>
+            <!--        Dinner Recipes-->
+            <div class="dinner">
+                <h1 class="category_title">Dinner</h1>
+                <div class="gallery">
+                    <a target="_blank" href="chicken_bastilla.asp">
+                        <img src="Images/Dinner/chicken_bastilla_plated.jpg" alt="chicken_bastilla"></a>
+                    <div class="desc">Moroccan Chicken Bastilla</div>
+                </div>
+                <div class="gallery">
+                    <a target="_blank" href="black_bean_tostadas.asp">
+                        <img src="Images/Dinner/dont_forget_your_napkin_plated.jpg"alt="black_bean_tostadas"></a>
+                    <div class="desc">Cumin-Lime Toasted Black Bean Tostadas</div>
+                </div>
+                <div class="gallery">
+                    <a target="_blank" href="veggie_lasagna.asp">
+                        <img src="Images/Dinner/kale_ricotta_lasagna_plated.jpg"alt="veggie_lasagna"></a>
+                    <div class="desc">Vegan Kale and Ricotta Lasagna</div>
+                </div>
+                <div class="gallery">
+                    <a target="_blank" href="lemony_artichokes.asp">
+                        <img src="Images/Dinner/lemony_steamed_artichokes_plated.jpg" alt="veggie_lasagna"></a>
+                    <div class="desc">Lemony Steam-Roasted Artichokes with Garlic and Cherry Tomatoes</div>
+                </div>
+                <div class="gallery">
+                    <a target="_blank" href="garlic_mussels.asp">
+                        <img src="Images/Dinner/musselswithfrites_plated.jpg" alt="garlic_mussels"></a>
+                    <div class="desc">Garlicky White Wine Mussels</div>
+                </div>
+                <div class="gallery">
+                    <a target="_blank" href="quinoa_ratatoiulle.asp">
+                        <img src="Images/Dinner/quinoa_ratatoille_plated.jpg" alt="quinoa_ratatoiulle"></a>
+                    <div class="desc">Layered Quinoa "Ratatouille"</div>
+                </div>
+                <div class="gallery">
+                    <a target="_blank" href="redcurry_shrimp.asp">
+                        <img src="Images/Dinner/red_curry_coconut_shrimp_plated.jpg" alt="redcurry_shrimp"></a>
+                    <div class="desc">Red Curry Coconut Marinated Shrimp</div>
+                </div>
+                <div class="gallery">
+                    <a target="_blank" href="samosa_pie.asp">
+                        <img src="Images/Dinner/samosa_pie_plated.jpg" alt="samosa_pie"></a>
+                    <div class="desc">Samosa Pie</div>
+                </div>
+                <div class="gallery">
+                    <a target="_blank" href="tikka.asp">
+                        <img src="Images/Dinner/tikka_plated.jpg" alt="tikka"></a>
+                    <div class="desc">Vegetarian Tikka Masala</div>
+                </div>
+                <div class="gallery">
+                    <a target="_blank" href="veggie_shepherds_pie.asp">
+                        <img src="Images/Dinner/veggie_shepherdspie_plated.jpg" alt="veggie_shepherds_pie"></a>
+                    <div class="desc">Spring Shepherd's Pie</div>
+                </div>
+            </div>
+            <br>
+            <!--        Dessert Recipes-->
+            <div class="desserts">
+                <h1 class="category_title">Dessert</h1>
+                <div class="gallery">
+                    <a target="_blank" href="apple_croustades.asp">
+                        <img src="Images/Desserts/Apple_croustades_plated.jpg" alt="apple_croustades"></a>
+                    <div class="desc">Spiced Apple Croustades</div>       
+                </div>
+                <div class="gallery">
+                    <a target="_blank" href="buckeyes.asp">
+                        <img src="Images/Desserts/buckeyes_plated.jpg" alt="apple_croustades"></a>
+                    <div class="desc">Dark Chocolate Peanut Butter Buckeyes</div>  
+                </div>
+                <div class="gallery">
+                    <a target="_blank" href="coconut_bites.asp">
+                        <img src="Images/Desserts/coconut_snack_bites_plate.jpg" alt="coconut_bites"></a>
+                    <div class="desc">Cinnamon Toasted Coconut Snack Bites</div>       
+                </div>
+                <div class="gallery">
+                    <a target="_blank" href="marmalade_pudding.asp">
+                        <img src="Images/Desserts/MeyerLemon_bread_pudding_plated.jpg" alt="marmalade_pudding"></a>
+                    <div class="desc">Meyer Lemon Marmalade Bread Pudding</div>
+                </div>
+                <div class="gallery">
+                    <a target="_blank" href="choc_coconut_mousse.asp">
+                        <img src="Images/Desserts/vegan_chocococonutmousse_plated.jpg" alt="choc_coconut_mousse"></a>
+                    <div class="desc">Vegan Coconut Chocolate Mousse</div>
+                </div>
+                <div class="gallery">
+                    <a target="_blank" href="lemon_custard.asp">
+                        <img src="Images/Desserts/vegan_lemon_custard_berry_pies_plated.jpg" alt="lemon_custard"></a>
+                    <div class="desc">Lemon Berry Custard Pies</div>
+                </div>
+            </div>
+            <br>
+            <!--        Drink Recipes-->
+            <div class="drinks">
+                <h1 class="category_title">Drinks</h1>
+                <div class="gallery">
+                    <a target="_blank" href="blueberry_lemonade.asp">
+                        <img src="Images/Drinks/blueberry_agave_lemonade_plated.jpg" alt="blueberry_lemonade"></a>
+                    <div class="desc">Blueberry Agave Lemonade</div>
+                </div>
+                <div class="gallery">
+                    <a target="_blank" href="healing_tea.asp">
+                        <img src="Images/Drinks/healing_tea_plated.jpg" alt="healing_tea"></a>
+                    <div class="desc">Commonweal's Healing Spiced Tea</div>
+                </div>
+                <div class="gallery">
+                    <a target="_blank" href="hibiscus_mint.asp">
+                        <img src="Images/Drinks/hibiscusmintsimplicitea_plated.jpg" alt="hibiscus_mint"></a>
+                    <div class="desc">Hibiscus-Mint "Simplici-tea"</div>
+                </div>
+                <div class="gallery">
+                    <a target="_blank" href="spice_steamer.asp">
+                        <img src="Images/Drinks/pumpkin_spice_steamer_plated.jpg" alt="spice_steamer"></a>
+                    <div class="desc">Pumpkin Spice Steamers</div>
+                </div>
+                <div class="gallery">
+                    <a target="_blank" href="rhubarb_soda.asp">
+                        <img src="Images/Drinks/rhubarb_mint_soda_plated.jpg" alt="rhubarb_soda"></a>
+                    <div class="desc">Rhubarb-Mint Soda</div>
+                </div>
+                <div class="gallery">
+                    <a target="_blank" href="basil_lemonade.asp">
+                        <img src="Images/Drinks/thai_basil_lemonade_plated.jpg" alt="basil_lemonade"></a>
+                    <div class="desc">Thai Basil Lemonade</div>
+                </div>
+            </div>
+            <br>
+            <!--        Basic Recipes-->
+            <div class="basics">
+                <h1 class="category_title">Basics</h1>
+                <div class="gallery">
+                    <a target="_blank" href="chive_vinegar.asp">
+                        <img src="Images/Basics/Chive_Blossom_Vinegar_plated.jpg" alt="chive_vinegar"></a>
+                    <div class="desc">Chive Blossom Vinegar</div>
+                </div>
+                <div class="gallery">
+                    <a target="_blank" href="habanero_pickles.asp">
+                        <img src="Images/Basics/Habanero_pickles_plated.jpg" alt="habanero_pickles"></a>
+                    <div class="desc">Honey Habanero Pickles</div>
+                </div>
+                <div class="gallery">
+                    <a target="_blank" href="hatch_green_sauce.asp">
+                        <img src="Images/Basics/hatch_green_chile_plated.jpg" alt="hatch_green_sauce"></a>
+                    <div class="desc">Vegetarian Hatch Green Chile Sauce</div>
+                </div>
+                <div class="gallery">
+                    <a target="_blank" href="herb_salts.asp">
+                        <img src="Images/Basics/herb_salts_plated.jpg" alt="herb_salts"></a>
+                    <div class="desc">Fragrant Dried Herb Salts</div>
+                </div>
+                <div class="gallery">
+                    <a target="_blank" href="chile_negro_salsa.asp">
+                        <img src="Images/Basics/jars_salsa_plated.jpg" alt="chile_negro_salsa"></a>
+                    <div class="desc">Roasted Tomatillo-Chile Negro Salsa for Canning</div>
+                </div>
+                <div class="gallery">
+                    <a target="_blank" href="lemon_marmalade.asp">
+                        <img src="Images/Basics/MeyerLemonMarmalade_plated.jpg" alt="lemon_marmalade"></a>
+                    <div class="desc">Meyer Lemon Marmalade: Little Jars of Sunshine in a Cold, Cold World</div>
+                </div>
+                <div class="gallery">
+                    <a target="_blank" href="preserved_lemons.asp">
+                        <img src="Images/Basics/sunshine_inajar_plated.jpg" alt="preserved_lemons"></a>
+                    <div class="desc">Moroccan Preserved Meyer Lemons</div>
+                </div>
+            </div>
+            <br>
+            <!--        Party Recipes-->
+            <div class="party">
+                <h1 class="category_title">Party Time!</h1>
+                <div class="gallery">
+                    <a target="_blank" href="avocado_salsa.asp">
+                        <img src="Images/Party_time/Advocadosalsa_plated.jpg" alt="avocado_salsa"></a>
+                    <div class="desc">Mango Avocado Salsa</div>
+                </div>
+                <div class="gallery">
+                    <a target="_blank" href="asian_slaw.asp">
+                        <img src="Images/Party_time/Asian_Slaw_plated.jpg" alt="asian_slaw"></a>
+                    <div class="desc">Avocado Eggrolls with Asian Slaw</div>
+                </div>
+                <div class="gallery">
+                    <a target="_blank" href="bbq_wedge.asp">
+                        <img src="Images/Party_time/bbq_potato_wedges_plated.jpg" alt="bq_wedge"></a>
+                    <div class="desc">BBQ Spiced Potato Wedges</div>
+                </div>        
+                <div class="gallery">
+                    <a target="_blank" href="spice_cauliflower.asp">
+                        <img src="Images/Party_time/indian_spiced_cauliflower_plated.jpg" alt="spice_cauliflower.asp"></a>
+                    <div class="desc"Indian-Spiced Roasted Cauliflower>Indian Spiced Cauliflower</div>
+                </div>            
+                <div class="gallery">
+                    <a target="_blank" href="onion_dip.asp">
+                        <img src="Images/Party_time/Oniondip_plated.jpg" alt="onion_dip"></a>
+                    <div class="desc">Caramelized Onion Dip</div>
+                </div>            
+                <div class="gallery">
+                    <a target="_blank" href="con_tomate.asp">
+                        <img src="Images/Party_time/pan_con_tomate_plated.jpg" alt="con_tomate"></a>
+                    <div class="desc">Pan con Tomate</div>
+                </div>            
+                <div class="gallery">
+                    <a target="_blank" href="retro_mushrooms.asp">
+                        <img src="Images/Party_time/stuffed_mushrooms_plated.jpg" alt="retro_mushrooms"></a>
+                    <div class="desc">Goat Cheese and Chive Stuffed Mushrooms</div>
+                </div>
+                <div class="gallery">
+                    <a target="_blank" href="tapenades.asp">
+                        <img src="Images/Party_time/tapenade_Spread_plated.jpg" alt="tapenades"></a>
+                    <div class="desc">Lemon-Garlic Infused Olive Tapenade</div>
+                </div> 
+                <div class="gallery">
+                    <a target="_blank" href="lemon_cream_dip.asp">
+                        <img src="Images/Party_time/vegan_herby_sourcream_dip_plated.jpg" alt="lemon_cream_dip"></a>
+                    <div class="desc">Lemon-Herb Cashew Sour Cream Dip</div>
+                </div> 
+            </div>
+        </div>
+        <!--        Footer-->
+        <div class="footer">
+            <br><hr>
+            <p>Spoon With Me 2017</p>
+            <a href="SpoonWithMeTerms.asp">Terms</a>
+            <a href="SpoonWithMePrivacy.asp">Privacy</a>
+            <hr>
+        </div>
+    </body>
+</html>
